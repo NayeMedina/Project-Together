@@ -1,0 +1,81 @@
+/* ==========================
+   VARIABLES
+========================== */
+
+:root{
+
+    --background:#0D1117;
+    --text:#F5F5F5;
+    --blue:#58A6FF;
+    --red:#FF4D4D;
+    --gray:#8B949E;
+
+}
+
+/* ==========================
+   GENERAL
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:var(--background);
+    color:var(--text);
+
+    font-family:"Poppins",sans-serif;
+
+}
+/* ==========================
+BOOT SCREEN
+========================== */
+
+#boot-screen{
+
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.terminal{
+
+    width:80%;
+    max-width:900px;
+
+    font-family:"JetBrains Mono", monospace;
+
+}
+
+h1{
+
+    color:var(--blue);
+
+    font-size:55px;
+
+    margin-bottom:10px;
+
+}
+
+.version{
+
+    color:var(--gray);
+
+    margin-bottom:40px;
+
+}
+
+.terminal p{
+
+    font-size:20px;
+
+    line-height:40px;
+
+}
