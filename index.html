@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,40 +10,40 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
 
+</head>
+    
 <body>
 
-    <!-- Pantalla de carga -->
-    <section id="boot-screen">
-        <div class="terminal">
+<div id="app">
 
-        <h1>PROJECT TOGETHER</h1>
+    <section id="boot-screen" class="screen">
 
-        <p class="version">
-            Version 0.2
-        </p>
+        <div class="panel">
 
-        <br>
+            <h1>RELATIONSHIP CONTROLLER</h1>
 
-        <p id="line1"></p>
-        <p id="line2"></p>
-        <p id="line3"></p>
-        <p id="line4"></p>
-        <p id="line5"></p>
-        <p id="line6"></p>
+            <p class="version">
+                Project Together v2.0
+            </p>
 
-    </div>
+            <div id="terminal-text"></div>
+
+            <button id="start-btn" class="btn-industrial">
+                ▶️ ENTER CONTROL PANEL
+            </button>
+
+        </div>
 
     </section>
 
-    <script src="js/script.js"></script>
+</div>
+
+<script src="js/script.js"></script>
 
 </body>
-
 </html>
