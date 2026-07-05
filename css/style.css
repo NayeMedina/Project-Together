@@ -689,3 +689,34 @@ min-height:420px;
     background-color: #00FF00 !important;
     box-shadow: 0 0 12px rgba(0, 255, 0, 0.9) !important;
 }
+
+/* ======================================================== */
+/*   AJUSTES RESPONSIVOS PARA PANTALLAS MÓVILES             */
+/* ======================================================== */
+
+@media (max-width: 600px) {
+    /* Reduce los títulos grandes para que quepan en celulares */
+    h1, .panel h1 {
+        font-size: 28px !important; /* Evita que se salga del recuadro */
+        line-height: 36px !important;
+        word-wrap: break-word;
+    }
+
+    /* Ajusta el panel principal para aprovechar mejor el espacio en el celular */
+    .panel {
+        width: 95% !important;
+        padding: 20px !important; /* Reduce el margen interno */
+    }
+
+    /* Asegura que el texto de la terminal no se amontone */
+    #terminal-text p {
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+
+    /* Asegura que el iframe de Spotify nunca sea más ancho que la pantalla */
+    iframe {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
